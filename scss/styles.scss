@@ -503,6 +503,12 @@ footer {
         top: 100%;
         left: 303px;
     }
+    ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+        padding: 0 0 0 15px;
+    }
 }
 
 .vtimeline-content {
