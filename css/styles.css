@@ -557,12 +557,23 @@ footer {
   float: left;
 }
 
+.project-list {
+  text-align: center;
+}
+.project-list ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+  padding: 0 0 0 15px;
+}
+
 .project-info {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 15px;
+  text-align: left;
 }
 .project-info h3 {
   font-size: 1.5em;
@@ -574,6 +585,12 @@ footer {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.9em;
+}
+.project-info ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+  padding: 0 0 0 15px;
 }
 
 .no-image .project-info {
